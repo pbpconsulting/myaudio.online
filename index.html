@@ -1,5 +1,109 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>MyAudio Online</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body><header><div class="container nav"><a class="logo" href="index.html"><div class="logo-mark">♫</div><div class="logo-text">myaudio<small>ONLINE</small></div></a><nav><ul><li><a class="active" href="index.html">Home</a></li><li><a class="" href="reviews.html">Reviews</a></li><li><a class="" href="album-reviews.html">Albums</a></li><li><a class="" href="articles.html">Articles</a></li><li><a class="" href="blogs.html">Blogs</a></li></ul></nav></div></header>
-<section class="hero"><div class="container hero-wrap"><div><div class="kicker">Music reviews + sound culture</div><h1>Fresh ears. Sharp takes. No bloated waffle.</h1><p>MyAudio Online is a fast, modern mockup for music reviews, album reviews, gear breakdowns, production articles and blog posts. Built to look legit while you test the plumbing.</p><div class="hero-actions"><a class="btn" href="reviews.html">Explore Reviews</a><a class="btn secondary" href="articles.html">Read Articles</a></div></div><div class="hero-card"><div class="mock-screen"><div class="mock-grid"><div class="bar"></div><div class="cards"><div class="card"></div><div class="card"></div><div class="card"></div><div class="card"></div></div></div></div></div></div></section>
-<section class="section"><div class="container"><div class="section-head"><div><h2>What’s on the site</h2><p>Enough sections to feel real. Not enough to ruin your weekend.</p></div></div><div class="grid-3"><article class="panel"><div class="thumb"></div><div class="meta">Gear reviews</div><h3>Headphones, mics and studio gear</h3><p>Short verdicts, clean layouts, fake content that still looks the part.</p></article><article class="panel"><div class="thumb album"></div><div class="meta">Album reviews</div><h3>Weekly picks and deep dives</h3><p>Feature cards for new releases, classics and guilty pleasures.</p></article><article class="panel"><div class="thumb"></div><div class="meta">Production articles</div><h3>Mixing, mastering and recording</h3><p>Blog-style explainers for creators, hobbyists and audio nerds.</p></article></div></div></section>
-<section class="section"><div class="container"><div class="section-head"><div><h2>Quick links</h2><p>Jump into the fake empire.</p></div></div><div class="grid-2"><a class="panel" href="album-reviews.html"><div class="meta">Albums</div><h3>Album Reviews</h3><p>Latest records, nostalgic throwbacks and punchy summaries.</p></a><a class="panel" href="blogs.html"><div class="meta">Blogs</div><h3>Blogs & commentary</h3><p>Opinion pieces, trends, lists and other highly arguable things.</p></a></div></div></section>
-<footer><div class="container footer-grid"><div>MyAudio Online - mockup for testing DNS and GitHub Pages.</div><div>Reviews. Albums. Production. Gear. Mild obsession.</div></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyAudio Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html"><img src="assets/myaudio-logo.png" alt="MyAudio Online logo"></a>
+    <nav class="nav">
+      <a class="active" href="index.html">Home</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="album-reviews.html">Album Reviews</a>
+      <a href="articles.html">Articles</a>
+      <a href="blogs.html">Blogs</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="kicker">REVIEWS. PRODUCTION. GEAR. OPINIONS.</span>
+        <h1>Music culture with cleaner taste and fewer wankers.</h1>
+        <p class="lead">MyAudio Online is a modern mockup for album reviews, studio articles, gear write-ups and blog content. It is built to look good fast, work on GitHub Pages, and help you test the plumbing without building NASA.</p>
+        <div class="hero-actions">
+          <a class="btn" href="reviews.html">Explore Reviews</a>
+          <a class="btn ghost" href="articles.html">Read Articles</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>48</strong><span>Mock review posts</span></div>
+          <div class="stat"><strong>12</strong><span>Album features</span></div>
+          <div class="stat"><strong>24</strong><span>Production articles</span></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="assets/hero-mockup.png" alt="Homepage mockup">
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Latest drops</h2>
+          <p>Quick sections you can actually test right now.</p>
+        </div>
+      </div>
+      <div class="grid cards">
+        <article class="card">
+          <div class="card-media"><img src="assets/review-headphones.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="eyebrow">Gear Review</div>
+            <h3>Studio headphones that tell the truth</h3>
+            <p>Not every pair deserves your ears. Some are just expensive earmuffs with attitude.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media"><img src="assets/album-week.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="eyebrow">Album Review</div>
+            <h3>This week’s album worth your time</h3>
+            <p>A sharp write-up format for new releases, old classics, and records that aged strangely.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media"><img src="assets/tip-mixing.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="eyebrow">Production</div>
+            <h3>Mixing tips without the fake guru voice</h3>
+            <p>Practical articles on sound production, arrangement, recording, and fixing sloppy decisions.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media"><img src="assets/blog-vinyl.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="eyebrow">Blog</div>
+            <h3>Columns, opinions and audio nonsense</h3>
+            <p>Think blog posts, music culture takes, workflow ideas, and the occasional justified rant.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div class="feature">
+        <h3>What’s in the mockup</h3>
+        <p>Homepage, reviews, album reviews, articles and blogs. Static HTML. One CSS file. Local images. No database. No weird build tools. Just files you can drop into GitHub and test.</p>
+      </div>
+      <div class="feature">
+        <h3>Why it exists</h3>
+        <p>Because sometimes you do not need a digital cathedral. You need a clean test site that proves DNS, repo structure and hosting are behaving themselves.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">MyAudio Online - mockup build with local assets for fast GitHub Pages testing.</div>
+</footer>
+</body>
+</html>
